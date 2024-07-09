@@ -1,0 +1,89 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 32px;
+  position: absolute;
+  width: 421px;
+  height: 30px;
+  left: calc(50% - 421px / 2 - 9.5px);
+  top: 1500px;
+}
+
+.results {
+  width: 127px;
+  height: 21px;
+  font-family: 'Segoe UI', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #747373;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.page-numbers {
+  display: flex;
+  gap: 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.page-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background: #343A40;
+  border-radius: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FDFDFD;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.page-number.active {
+  background: #FFFFFF;
+  color: #343A40;
+}
+
+.chevron-right {
+  display: flex;
+  gap: 8px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.chevron-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background: #343A40;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.chevron-svg {
+  width: 16px;
+  height: 16px;
+  fill: #FFFFFF;
+  transform: rotate(-180deg);
+}
+
+.chevron-button:hover {
+  background: rgba(52, 58, 64, 0.6);
+}

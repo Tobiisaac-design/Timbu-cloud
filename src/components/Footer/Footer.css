@@ -1,0 +1,201 @@
+/* Footer */
+
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 383px;
+  left: 0px;
+  top: 3250px;
+  background: #343A40;
+}
+
+/* Crafted Charm */
+
+.crafted-charm {
+  position: absolute;
+  width: 211px;
+  height: 27px;
+  left: calc(50% - 211px/2 + 0.5px);
+  bottom: 15px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #AAABAD;
+}
+
+/* Newsletter Container */
+
+.Newsletter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.get-updates {
+  font-family: 'Segoe UI', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #747373;
+  margin-top: 16px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.your-email {
+  width: 200px;
+  height: 32px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.send {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.send:hover {
+  background-color: #0056b3;
+}
+
+/* Payment Container */
+
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.payment-container h5 {
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.paypal, .applepay, .credit-debit {
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+/* Links Container */
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.link-container p {
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.home-page, .product-page, .cart, .contact-us {
+  margin-top: 8px;
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.home-page a, .product-page a, .cart a, .contact-us a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.home-page a:hover, .product-page a:hover, .cart a:hover, .contact-us a:hover {
+  text-decoration: underline;
+}
+
+/* Social Media Links Container */
+
+.socialmedia-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.join-us {
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.rectangle-7, .rectangle-8, .rectangle-9, .vector {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+}
+
+.fb {
+  background-image: url('../../assets/images/fb.png');
+}
+
+.ig {
+  background-image:  url('../../assets/images/fb.png');
+}
+
+.lin {
+  background-image:  url('../../assets/images/lin.png');
+}
+
+.x {
+  background-image:  url('../../assets/images/x.png');
+}
+
+/* Copyright */
+
+.copyright {
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  margin-top: 24px;
+}
