@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Timbu-cloud/precache-manifest.50785bbc9eee47bf23b7082f4c7c38bd.js"
+  "/Timbu-cloud/precache-manifest.557270d926acdd4e0ef10b2c53f24ef8.js"
 );
 
 self.addEventListener('message', (event) => {
