@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f02eac0f5313cfd2b86c0c381a9c698",
+    "revision": "14619c9356c2dcca48bd025967667d92",
     "url": "/Timbu-cloud/index.html"
   },
   {
-    "revision": "148df4aeadac36786c5d",
-    "url": "/Timbu-cloud/static/css/main.9a958500.chunk.css"
+    "revision": "b36551cd9d0d7d61e8cf",
+    "url": "/Timbu-cloud/static/css/main.b28bdf5b.chunk.css"
   },
   {
     "revision": "69eec422d47710589a37",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Timbu-cloud/static/js/3.ae90cb37.chunk.js"
   },
   {
-    "revision": "148df4aeadac36786c5d",
-    "url": "/Timbu-cloud/static/js/main.aaac8930.chunk.js"
+    "revision": "b36551cd9d0d7d61e8cf",
+    "url": "/Timbu-cloud/static/js/main.ed09df6f.chunk.js"
   },
   {
     "revision": "f653b63861da250b8394",

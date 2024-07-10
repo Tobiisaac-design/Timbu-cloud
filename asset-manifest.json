@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Timbu-cloud/static/css/main.9a958500.chunk.css",
-    "main.js": "/Timbu-cloud/static/js/main.aaac8930.chunk.js",
-    "main.js.map": "/Timbu-cloud/static/js/main.aaac8930.chunk.js.map",
+    "main.css": "/Timbu-cloud/static/css/main.b28bdf5b.chunk.css",
+    "main.js": "/Timbu-cloud/static/js/main.ed09df6f.chunk.js",
+    "main.js.map": "/Timbu-cloud/static/js/main.ed09df6f.chunk.js.map",
     "runtime-main.js": "/Timbu-cloud/static/js/runtime-main.8329cbfe.js",
     "runtime-main.js.map": "/Timbu-cloud/static/js/runtime-main.8329cbfe.js.map",
     "static/js/2.4e71cd59.chunk.js": "/Timbu-cloud/static/js/2.4e71cd59.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.ae90cb37.chunk.js": "/Timbu-cloud/static/js/3.ae90cb37.chunk.js",
     "static/js/3.ae90cb37.chunk.js.map": "/Timbu-cloud/static/js/3.ae90cb37.chunk.js.map",
     "index.html": "/Timbu-cloud/index.html",
-    "precache-manifest.557270d926acdd4e0ef10b2c53f24ef8.js": "/Timbu-cloud/precache-manifest.557270d926acdd4e0ef10b2c53f24ef8.js",
+    "precache-manifest.f22f9d41f7c4cbcaedac1f9d80437ee5.js": "/Timbu-cloud/precache-manifest.f22f9d41f7c4cbcaedac1f9d80437ee5.js",
     "service-worker.js": "/Timbu-cloud/service-worker.js",
-    "static/css/main.9a958500.chunk.css.map": "/Timbu-cloud/static/css/main.9a958500.chunk.css.map",
+    "static/css/main.b28bdf5b.chunk.css.map": "/Timbu-cloud/static/css/main.b28bdf5b.chunk.css.map",
     "static/js/2.4e71cd59.chunk.js.LICENSE.txt": "/Timbu-cloud/static/js/2.4e71cd59.chunk.js.LICENSE.txt",
     "static/media/Elegant.png": "/Timbu-cloud/static/media/Elegant.224cdcd5.png",
     "static/media/Royalcomfort.png": "/Timbu-cloud/static/media/Royalcomfort.80f065a4.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.8329cbfe.js",
     "static/js/2.4e71cd59.chunk.js",
-    "static/css/main.9a958500.chunk.css",
-    "static/js/main.aaac8930.chunk.js"
+    "static/css/main.b28bdf5b.chunk.css",
+    "static/js/main.ed09df6f.chunk.js"
   ]
 }
