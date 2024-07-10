@@ -1,19 +1,14 @@
+/* Footer */
 .footer {
+  position: relative;
   width: 100%;
   background: #343a40;
   padding: 40px 0;
+  max-width: 1440px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  position: relative; /* Changed from absolute to relative for natural flow */
-  top: auto; /* Removed the fixed top positioning */
-}
-
-@media (max-width: 768px) {
-  .footer {
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 /* Newsletter Container */
@@ -23,6 +18,45 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 24px;
+}
+
+.get-updates {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #747373;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.your-email {
+  width: 200px;
+  height: 32px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.send {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.send:hover {
+  background-color: #0056b3;
 }
 
 /* Payment Container */
@@ -64,6 +98,44 @@
   margin-bottom: 24px;
 }
 
+.link-container p {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.home-page,
+.product-page,
+.cart,
+.contact-us {
+  color: #ffffff;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.home-page a,
+.product-page a,
+.cart a,
+.contact-us a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.home-page a:hover,
+.product-page a:hover,
+.cart a:hover,
+.contact-us a:hover {
+  text-decoration: underline;
+}
+
 /* Social Media Links Container */
 .socialmedia-link {
   flex: 1 1 25%;
@@ -71,6 +143,16 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 24px;
+}
+
+.join-us {
+  color: #ffffff;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 .social-icons {
@@ -87,6 +169,7 @@
   width: 30px;
   height: 30px;
   border-radius: 6px;
+  background-size: contain;
 }
 
 .fb {
@@ -115,4 +198,32 @@
   line-height: 150%;
   text-align: center;
   margin-top: 24px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .your-email {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .send {
+    width: 100%;
+    border-radius: 0 0 4px 4px;
+    margin-top: 8px;
+  }
+
+  .Newsletter-container, .payment-container, .link-container, .socialmedia-link {
+    flex: 1 1 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .payment-container h5, .link-container p, .join-us {
+    text-align: center;
+  }
 }
