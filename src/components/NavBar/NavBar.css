@@ -39,3 +39,37 @@ h3 {
   width: 24px;
   height: 24px;
 }
+
+.hamburger {
+  display: none; /* Hide hamburger by default */
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.toggle-icon {
+  display: none; /* Hide toggle icon by default */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .nav {
+    padding: 16px;
+  }
+
+  .img {
+    display: none; /* Hide icons by default on small screens */
+  }
+
+  .hamburger {
+    display: block; /* Show hamburger icon on small screens */
+  }
+
+  .toggle-icon {
+    display: inline-block; /* Show toggle icon only on small screens */
+    margin-left: auto; /* Align toggle icon to the right */
+  }
+
+  .img.active {
+    display: flex; /* Show icons when active */
+  }
+}
