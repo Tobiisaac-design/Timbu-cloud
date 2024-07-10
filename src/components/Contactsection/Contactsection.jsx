@@ -7,6 +7,7 @@ const ContactUs = () => {
       <p id="heading">Contact Us</p>
       <div className="row">
         <div className="form-container">
+          <p>Do you need help? Send us a message</p>
           <form>
             <div className="form-group">
               <label htmlFor="fullname">Full Name</label>
