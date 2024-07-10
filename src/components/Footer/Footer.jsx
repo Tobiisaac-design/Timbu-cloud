@@ -40,8 +40,6 @@ const Footer = () => {
         <div className="contact-us">
           <a href="#">Contact Us</a>
         </div>
-
-        <div className="contact-us">Contact Us</div>
       </div>
 
       <div className="socialmedia-link">
@@ -50,7 +48,7 @@ const Footer = () => {
           <div className="fb"></div>
           <div className="ig"></div>
           <div className="lin"></div>
-          <div className="X"></div>
+          <div className="x"></div>
         </div>
       </div>
 

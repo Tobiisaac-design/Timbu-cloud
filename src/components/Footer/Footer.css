@@ -1,160 +1,76 @@
-/* Footer */
-
 .footer {
-  position: absolute;
-  width: 1440px;
-  height: 383px;
-  left: 0px;
-  top: 3250px;
-  background: #343A40;
+  width: 100%;
+  background: #343a40;
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative; /* Changed from absolute to relative for natural flow */
+  top: auto; /* Removed the fixed top positioning */
 }
 
-/* Crafted Charm */
-
-.crafted-charm {
-  position: absolute;
-  width: 211px;
-  height: 27px;
-  left: calc(50% - 211px/2 + 0.5px);
-  bottom: 15px;
-  font-family: 'Segoe UI';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 27px;
-  text-align: center;
-  text-transform: capitalize;
-  color: #AAABAD;
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* Newsletter Container */
-
 .Newsletter-container {
+  flex: 1 1 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 24px 0;
-}
-
-.get-updates {
-  font-family: 'Segoe UI', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 21px;
-  color: #747373;
-  margin-top: 16px;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  margin-top: 16px;
-}
-
-.your-email {
-  width: 200px;
-  height: 32px;
-  padding: 8px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px 0 0 4px;
-}
-
-.send {
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 0 4px 4px 0;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.send:hover {
-  background-color: #0056b3;
+  margin-bottom: 24px;
 }
 
 /* Payment Container */
-
 .payment-container {
+  flex: 1 1 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 24px;
+  margin-bottom: 24px;
 }
 
 .payment-container h5 {
-  color: #FFFFFF;
-  font-family: 'Inter';
-  font-style: normal;
+  color: #ffffff;
+  font-family: "Inter";
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
+  text-align: center;
+  margin-bottom: 16px;
 }
 
-.paypal, .applepay, .credit-debit {
-  color: #FFFFFF;
-  font-family: 'Inter';
-  font-style: normal;
+.paypal,
+.applepay,
+.credit-debit {
+  color: #ffffff;
+  font-family: "Inter";
   font-weight: 500;
   font-size: 20px;
   line-height: 150%;
+  text-align: center;
 }
 
 /* Links Container */
-
 .link-container {
+  flex: 1 1 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 24px;
-}
-
-.link-container p {
-  color: #FFFFFF;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-}
-
-.home-page, .product-page, .cart, .contact-us {
-  margin-top: 8px;
-  color: #FFFFFF;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 150%;
-}
-
-.home-page a, .product-page a, .cart a, .contact-us a {
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-.home-page a:hover, .product-page a:hover, .cart a:hover, .contact-us a:hover {
-  text-decoration: underline;
+  margin-bottom: 24px;
 }
 
 /* Social Media Links Container */
-
 .socialmedia-link {
+  flex: 1 1 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 24px;
-}
-
-.join-us {
-  color: #FFFFFF;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
+  margin-bottom: 24px;
 }
 
 .social-icons {
@@ -162,37 +78,38 @@
   justify-content: center;
   align-items: center;
   gap: 16px;
-  margin-top: 8px;
 }
 
-.rectangle-7, .rectangle-8, .rectangle-9, .vector {
+.fb,
+.ig,
+.lin,
+.x {
   width: 30px;
   height: 30px;
   border-radius: 6px;
 }
 
 .fb {
-  background-image: url('../../assets/images/fb.png');
+  background-image: url("../../assets/images/fb.png");
 }
 
 .ig {
-  background-image:  url('../../assets/images/fb.png');
+  background-image: url("../../assets/images/ig.png");
 }
 
 .lin {
-  background-image:  url('../../assets/images/lin.png');
+  background-image: url("../../assets/images/lin.png");
 }
 
 .x {
-  background-image:  url('../../assets/images/x.png');
+  background-image: url("../../assets/images/x.png");
 }
 
 /* Copyright */
-
 .copyright {
-  color: #FFFFFF;
-  font-family: 'Inter';
-  font-style: normal;
+  flex-basis: 100%;
+  color: #ffffff;
+  font-family: "Inter";
   font-weight: 500;
   font-size: 20px;
   line-height: 150%;

@@ -10,73 +10,23 @@ body {
 *::after {
   box-sizing: inherit;
 }
-.ourproductpage {
-  /* padding: 20px; */
- /* position: absolute; */
-width: 100%;
-max-width: 1440px;
-max-height: 2448px;
-height: 100%;
-left: 0px;
-top: 0px;
 
-background: #FFFFFF;
+.ourproductpage {
+  width: 100%;
+  max-width: 1440px;
+  background: #FFFFFF;
+  margin: 0 auto; /* Center the page content */
+  padding: 20px; /* Add padding to ensure space around content */
 }
 
+/* Product Navigation */
 .product-nav {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
 
-/* .nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 32px;
-  gap: 1050px;
-  width: 100%;
-  max-width: 1328px;
-  height: 74px;
-  left: calc(50% - 1328px / 2);
-  top: 23px;
-  border-radius: 15px;
-}
-
-h3 {
-  margin: 0 auto;
-  width: 144px;
-  height: 24px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  color: #343a40;
-}
-
-.img {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  padding: 0px;
-  gap: 24px;
-  margin: 0 auto;
-  width: 74.16px;
-  height: 24px;
-}
-
-.shop-icon {
-  width: 24px;
-  height: 24px;
-}
-
-.heart-icon {
-  width: 26.16px;
-  height: 24px;
-} */
-
+/* Search Form */
 .search-form {
   display: flex;
   justify-content: center;
@@ -122,6 +72,7 @@ h3 {
   margin: 20px;
 }
 
+/* Product Types */
 .product-types ul {
   list-style-type: none;
   padding: 0;
@@ -137,6 +88,7 @@ h3 {
   color: #000;
 }
 
+/* Filter */
 .filter {
   display: flex;
   align-items: center;
@@ -146,6 +98,7 @@ h3 {
   margin-right: 10px;
 }
 
+/* Catalog */
 .catalog {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -187,4 +140,24 @@ h3 {
   font-weight: 700;
   color: #000;
   margin-top: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .ourproductpage {
+    padding: 10px;
+  }
+
+  .product-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-form {
+    flex-direction: column;
+  }
+
+  .catalog {
+    grid-template-columns: 1fr;
+  }
 }
