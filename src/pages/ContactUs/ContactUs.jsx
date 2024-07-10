@@ -1,11 +1,12 @@
 import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
+import ContactUs from "../../components/Contactsection/Contactsection";
 
 const Contact = () => {
   return (
     <div>
       <NavBar/>
-      <h1>Contact</h1>
+      <ContactUs/>
     </div>
   );
 };
