@@ -1,16 +1,16 @@
 .pagination {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: center; /* Center horizontally */
   align-items: center;
   padding: 0;
   gap: 32px;
-  position: absolute;
-  width: 421px;
-  height: 30px;
-  left: calc(50% - 421px / 2 - 9.5px);
-  top: 1500px;
+  width: 100%; /* Use full width */
+  max-width: 600px; /* Adjust max-width as per your design */
+  margin: 0 auto; /* Center horizontally */
+  /* Remove left and top positioning */
 }
+
+/* Your other styles remain unchanged */
 
 .results {
   width: 127px;
